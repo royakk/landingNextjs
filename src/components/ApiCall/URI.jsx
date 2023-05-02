@@ -1,0 +1,5 @@
+export const BaseUrl='http://192.168.10.204:9191/general/'
+export const User='userManagement'
+export const Financial='financialManagement'
+export const Product='productCategorization'
+export const ApiVersion='/1.0/'

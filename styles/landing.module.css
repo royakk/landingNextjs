@@ -1,0 +1,387 @@
+.logoImg{
+    width: 40px;
+    height: 40px;
+
+}
+.logoImgxs{
+    width: 40px;
+    height: 40px;
+    align-items: center; 
+    margin: 0 auto;
+}
+.media{
+    /* width: 100vh; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+     width: 100%;
+     max-width:    100%;
+    padding-top: 580px;
+    height: 680px;
+    overflow: hidden;
+    align-items: center; 
+
+}
+
+.video{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    -webkit-filter:brightness(0.4);
+    filter:brightness(0.4);
+    width:100%;
+
+    top: 0;
+    left: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    
+}
+.mainContainer{
+    background-color: white;
+}
+.slider{
+    
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+.filterContainer{
+    padding-top: 32px;
+    position: relative;
+    padding-left: 72px;
+    padding-right: 72px;
+    /* margin: 10px; */
+    
+    
+    
+}
+.filterInner{
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:20px ;
+    margin-right: 40px;
+    flex: 0 0 150px;
+}
+.btnfilters{
+    justify-content: flex-end;
+    display: flex;
+     flex: 0 0 200px;
+}
+.btnpopular{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+.cardContainer{
+    /* padding-top: 32px; */
+    position: relative;
+    padding-left: 72px;
+    padding-right: 72px;
+    display: flex;
+    justify-content: center;
+    }
+.groupCard{
+    display: inline-flex !important;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+    flex: 0 0 88%;
+    gap: 2.5rem;
+    
+}
+
+.subMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    
+    top:calc(-50vh + 420px);
+    left: calc(100% - 100vw); 
+    
+}
+/* .inner{
+    width:400px;
+    height:400px;
+    position:absolute;
+    top:calc(50vh - 200px);
+    left:calc(50vw - 200px);
+    overflow:hidden;
+} */
+.selected> ul li a{
+background: #fff;
+    color: #000;
+}
+.menuItem{
+    display: inline-flex !important; 
+    list-style: none;
+    margin: 1em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.iconCascadMenu{
+   display: flex;
+   margin: 1.5rem 1rem 1.5rem 2rem;
+}
+.textCascadMenu{
+    
+    flex-direction: column;
+
+}
+.containerCascadMenu{
+    display: flex;
+    flex-direction: row;
+    
+}
+.rightCascadMenu{
+   background-color: #f8f8f8;
+    color:#6e6d7a
+
+}
+.itemContainer{
+    display: flex;
+    flex-direction: row;
+}
+.itemName{
+    display: flex;
+    flex-direction: column;
+}
+.text1{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin: 2rem;
+    max-width: 40rem;
+    overflow-wrap: break-word;
+}
+.text2{
+    font-size: 16;
+    text-align: center;
+    max-width: 40rem;
+    overflow-wrap: break-word;
+    align-items: center;
+    margin: 1.5rem;
+    
+}
+
+.test{
+    
+    color: rgb(255, 255, 255);
+    z-index: 9;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+}
+.subMenu{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+.subMenu> ul li a{
+    margin: 0 5px;
+    padding: 10px 16px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 50px;
+    font-weight: 500;
+    background: rgba(0,0,0,0.5);
+    
+}
+.subMenu> ul li a:hover{
+    background: #fff;
+    color: #000;
+}
+.subMenu> ul li a:focus{
+    background: #fff;
+    color: #000;
+}
+
+
+
+@media (max-width: 1200px) {
+    .subMenu {
+        left: calc(100% - 100vw); 
+        overflow-x: hidden;
+        overflow-y: hidden;
+       
+    }
+    .groupCard{
+        gap: 1rem;  
+    }
+}
+@media (max-width: 850px) {
+    .subMenu {
+        left: calc(100% - 100vw); 
+    }
+   
+    .groupCard{
+        gap: 1rem; 
+        align-items: center;
+        padding-left: 3rem;
+        padding-right: 2rem;
+         
+    }
+    
+    .text1{
+        font-size: 22px;
+        overflow-wrap: break-word;
+        max-width: 20rem;
+        /* left: calc(100% - 110%); */
+        margin: 1rem;
+    }
+   .text2{
+        font-size: 10px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        max-width: 20rem;
+        /* left: calc(100% - 100%); */
+        margin: 0.5rem;
+       
+    }
+}
+@media (max-width: 600px) {
+    
+    .text1{
+        font-size: 16px;
+        overflow-wrap: break-word;
+        max-width: 20rem;
+        /* left: calc(100% - 110%); */
+        margin: 0.5rem;
+    }
+   .text2{
+        font-size: 10px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        max-width: 20rem;
+        /* left: calc(100% - 110%); */
+        margin: 0.5rem;
+       
+    }
+    .subMenu> ul li a{
+    padding: 5px 10px;
+    font-size: 12px;
+    transition: all 0.3s ease-in-out;
+    font-weight: 300;
+    }
+   
+    .groupCard{
+        gap: 0.2rem;
+         
+    }
+    .cardContainer{
+        padding: 10px;
+    }
+    .iconCascadMenu{
+        margin: 1rem 0.5rem 0.5rem 1rem;
+    }
+    .media{
+        height: 200px;
+       }
+       .blockDisplay{
+        left:0 !important;
+       }
+       .subMenu {
+        left: calc(100% - 100vw); 
+    }
+    
+}
+@media (max-width: 490px) {
+   
+    .text1{
+        font-size: 16px;
+        max-width: 20rem;
+        /* left: calc(100% - 100%); */
+        /* margin: 0.5rem; */
+        
+    }
+   .text2{
+        font-size: 10px;
+        overflow-wrap: break-word;
+        max-width: 20rem;
+        /* left: calc(100% - 100%); */
+        /* margin: 0.5rem; */
+       
+    }
+    .subMenu> ul li a{
+    padding: 5px 10px;
+    font-size: 12px;
+    transition: all 0.3s ease-in-out;
+    font-weight: 300;
+    }
+  
+    .groupCard{
+        gap: 0.2rem;
+         
+    }
+    .cardContainer{
+        padding: 10px;
+    }
+    .iconCascadMenu{
+        margin: 1rem 0.5rem 0.5rem 1rem;
+    }
+    
+    
+      
+       
+}
+@media (max-width: 1140px) {
+    .subMenu{
+    left: calc(100% - 100vw) !important
+}
+
+    .subMenu>ul li {
+      flex-direction: column;
+       
+    }
+    .groupCard{
+        gap: 1rem;
+        flex:1;  
+    }
+}
+.nonDisplay{
+    display: none;
+     
+}
+.blockDisplay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+@media (min-width: 1200px) {
+    .subMenu {
+        
+        
+        top:calc(-50vh + 500px);
+        left: calc(-50vw + 80%); 
+        
+    }
+}
+
+
+
+
+
+
+

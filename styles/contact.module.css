@@ -1,0 +1,62 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container {
+  
+    margin-top: 5%;
+    max-width: 700px;
+    width: 100%;
+    background: rgba(237, 237, 237, 0.867);
+    padding: 25px 30px;
+    border-radius: 30px;
+  }
+  .container .title {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+  }
+  .container .title::before {
+    content: "";
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    height: 3px;
+    width: 30px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  }
+  .container form .userDetails {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+  }
+  form .userDetails .inputBox {
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+   
+  }
+  form .userDetails .inputBox .details {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  form .userDetails .inputBox input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3 ease;
+  }
+  form .userDetails .inputBox input:focus,
+  form .userDetails .inputBox input:valid {
+    border-color: #9b59b6;
+  }
+  

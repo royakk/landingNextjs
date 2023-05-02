@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+@import '~mdb-ui-kit/css/mdb.min.css';
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+/* img{
+  border: none;
+} */
+* {
+  box-sizing: border-box;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+} */
+.css-19r6kue-MuiContainer-root{
+  max-width: 2500px;
+}
+.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper{
+  border-radius: 15px;
+  
+}
+.MuiList-root{
+  padding:0
+}
+
+.css-1q39md6-MuiButtonBase-root-MuiButton-root{
+  color: #6e6d7a;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+letter-spacing: normal;
+line-height: 24px;
+text-transform: none;
+padding:3px 15px;
+}
+
+video{
+    
+  object-fit: contain;
+
+}
+.container{
+  align-items: center;
+  text-align: center;
+}
+
